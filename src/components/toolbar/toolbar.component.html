@@ -1,0 +1,24 @@
+<!-- app.component.html -->
+
+<p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" fxHide.lt-md>
+      </button>
+      <span fxFlex fxHide.gt-xs>Nombre Apellido Art</span>
+      <span class="example-spacer"></span>
+  
+      <!-- Home Button -->
+      <button mat-button a routerLink="/" fxHide.lt-md>Home</button>
+  
+      <!-- About Me Button -->
+      <button mat-button a routerLink="/about-me" fxHide.lt-md>About Me</button>
+  
+      <!-- My Art Button -->
+      <button mat-button a routerLink="/my-art" fxHide.lt-md>My Art</button>
+  
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </mat-toolbar>
+  </p>
+  
