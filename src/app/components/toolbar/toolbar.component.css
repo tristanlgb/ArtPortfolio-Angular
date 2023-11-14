@@ -1,0 +1,19 @@
+/* app.component.css */
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  /* Adjust the styling as needed for your application */
+  .mat-toolbar {
+    height: 64px; /* Adjust the height as needed */
+  }
+  
+  .example-icon {
+    font-size: 24px;
+  }
+  
+  .favorite-icon {
+    color: red; /* Change the color as needed */
+  }
+  
