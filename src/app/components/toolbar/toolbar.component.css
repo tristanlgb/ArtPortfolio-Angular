@@ -1,0 +1,29 @@
+/* app.component.css */
+
+/* Common styles for all screen sizes */
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  height: 64px; /* Adjust the height as needed */
+}
+
+.example-icon {
+  font-size: 24px;
+}
+
+.favorite-icon {
+  color: red; /* Change the color as needed */
+}
+
+/* Media query for smartphones (up to 600px width) */
+@media only screen and (max-width: 600px) {
+  .mat-toolbar {
+    height: 56px; /* Adjust the height for smartphones */
+  }
+
+  .example-icon {
+    font-size: 20px; /* Adjust the font size for smartphones */
+  }
+}
